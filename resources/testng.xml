@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Testing Manufacture and Track Apps">
+	<listeners>
+		<listener class-name="com.mnt.qa.xtentReport.XtentReportListner"/>
+	</listeners>			
+		<classes>
+			<class name="com.mnt.qa.testcases.CreateProductMasterTest"/>					             	
+		</classes>
+</suite>
